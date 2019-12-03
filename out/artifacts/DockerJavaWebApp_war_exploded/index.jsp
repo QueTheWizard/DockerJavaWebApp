@@ -13,5 +13,9 @@
 <body>
 <h1>Simple Java Web App Demo</h1>
 <p>To invoke the java servlet click <a href="MyServlet">here</a></p>
+<form action="FirstServlet" method="post">
+  Name:<input type="text" name="username"/><br/><br/>
+  Password:<input type="password" name="userpass"/><br/><br/>
+  <input type="submit" value="login"/>
 </body>
 </html>
